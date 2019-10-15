@@ -17,10 +17,10 @@
 CREATE FUNCTION fn_dimHora (@INCREMENTO INT) RETURNS @DimHora TABLE (
 		 [CodiHoraMinu]			 INT NULL
 		,[CodiHoraSegu]			 INT NULL
-		,[NumeHora]				 INT NULL
-		,[NumeMinu]				 INT NULL
-		,[Hora]					 TIME NULL
-		,[InteHora]				 TIME NULL
+		,[NumeHora]			 INT NULL
+		,[NumeMinu]			 INT NULL
+		,[Hora]				 TIME NULL
+		,[InteHora]			 TIME NULL
 		,[InteTrinMinu]			 TIME NULL
 		,[InteQuinMinu]			 TIME NULL
 		,[InteDezMinu]			 TIME NULL
